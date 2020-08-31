@@ -6,7 +6,7 @@
   <link href="http://yoursite.com/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-08-31T14:03:17.636Z</updated>
+  <updated>2020-08-31T14:46:10.832Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -18,21 +18,25 @@
   
   <entry>
     <title>servlet_1</title>
-    <link href="http://yoursite.com/2020/08/31/servlet-1/"/>
-    <id>http://yoursite.com/2020/08/31/servlet-1/</id>
+    <link href="http://yoursite.com/posts/servlet_1/"/>
+    <id>http://yoursite.com/posts/servlet_1/</id>
     <published>2020-08-31T14:03:17.000Z</published>
-    <updated>2020-08-31T14:03:17.636Z</updated>
+    <updated>2020-08-31T14:46:10.832Z</updated>
     
     
     
     
+    <category term="Servlet" scheme="http://yoursite.com/categories/Servlet/"/>
+    
+    
+    <category term="后端基础" scheme="http://yoursite.com/tags/%E5%90%8E%E7%AB%AF%E5%9F%BA%E7%A1%80/"/>
     
   </entry>
   
   <entry>
     <title>Hello World</title>
-    <link href="http://yoursite.com/2020/08/31/hello-world/"/>
-    <id>http://yoursite.com/2020/08/31/hello-world/</id>
+    <link href="http://yoursite.com/posts/undefined/"/>
+    <id>http://yoursite.com/posts/undefined/</id>
     <published>2020-08-31T12:59:48.903Z</published>
     <updated>2020-08-31T12:59:48.903Z</updated>
     
