@@ -3,11 +3,11 @@
   <title>Jieker&#39;s Blog</title>
   
   <subtitle>Jiker</subtitle>
-  <link href="http://yoursite.com/atom.xml" rel="self"/>
+  <link href="https://jie-blog.icu/atom.xml" rel="self"/>
   
-  <link href="http://yoursite.com/"/>
+  <link href="https://jie-blog.icu/"/>
   <updated>2020-09-01T15:09:37.170Z</updated>
-  <id>http://yoursite.com/</id>
+  <id>https://jie-blog.icu/</id>
   
   <author>
     <name>Zhang Junjie</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>servlet_1</title>
-    <link href="http://yoursite.com/posts/servlet_1/"/>
-    <id>http://yoursite.com/posts/servlet_1/</id>
+    <link href="https://jie-blog.icu/posts/servlet_1/"/>
+    <id>https://jie-blog.icu/posts/servlet_1/</id>
     <published>2020-08-31T14:03:17.000Z</published>
     <updated>2020-09-01T15:09:37.170Z</updated>
     
@@ -36,17 +36,17 @@
     
     
     
-    <category term="Servlet" scheme="http://yoursite.com/categories/Servlet/"/>
+    <category term="Servlet" scheme="https://jie-blog.icu/categories/Servlet/"/>
     
     
-    <category term="后端基础" scheme="http://yoursite.com/tags/%E5%90%8E%E7%AB%AF%E5%9F%BA%E7%A1%80/"/>
+    <category term="后端基础" scheme="https://jie-blog.icu/tags/%E5%90%8E%E7%AB%AF%E5%9F%BA%E7%A1%80/"/>
     
   </entry>
   
   <entry>
     <title>Hello World</title>
-    <link href="http://yoursite.com/posts/undefined/"/>
-    <id>http://yoursite.com/posts/undefined/</id>
+    <link href="https://jie-blog.icu/posts/undefined/"/>
+    <id>https://jie-blog.icu/posts/undefined/</id>
     <published>2020-08-31T12:59:48.903Z</published>
     <updated>2020-08-31T12:59:48.903Z</updated>
     

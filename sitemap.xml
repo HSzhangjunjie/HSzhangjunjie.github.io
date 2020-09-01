@@ -2,49 +2,49 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://yoursite.com/posts/servlet_1/</loc>
+    <loc>https://jie-blog.icu/posts/servlet_1/</loc>
     
     <lastmod>2020-09-01</lastmod>
     
   </url>
   
   <url>
-    <loc>http://yoursite.com/about/index.html</loc>
+    <loc>https://jie-blog.icu/about/index.html</loc>
     
     <lastmod>2020-09-01</lastmod>
     
   </url>
   
   <url>
-    <loc>http://yoursite.com/categories/index.html</loc>
+    <loc>https://jie-blog.icu/categories/index.html</loc>
     
     <lastmod>2020-09-01</lastmod>
     
   </url>
   
   <url>
-    <loc>http://yoursite.com/link/index.html</loc>
+    <loc>https://jie-blog.icu/link/index.html</loc>
     
     <lastmod>2020-09-01</lastmod>
     
   </url>
   
   <url>
-    <loc>http://yoursite.com/tags/index.html</loc>
+    <loc>https://jie-blog.icu/tags/index.html</loc>
     
     <lastmod>2020-09-01</lastmod>
     
   </url>
   
   <url>
-    <loc>http://yoursite.com/messageboard/index.html</loc>
+    <loc>https://jie-blog.icu/messageboard/index.html</loc>
     
     <lastmod>2020-09-01</lastmod>
     
   </url>
   
   <url>
-    <loc>http://yoursite.com/posts/undefined/</loc>
+    <loc>https://jie-blog.icu/posts/undefined/</loc>
     
     <lastmod>2020-08-31</lastmod>
     
@@ -52,7 +52,7 @@
   
 
   <url>
-    <loc>http://yoursite.com/</loc>
+    <loc>https://jie-blog.icu/</loc>
     <lastmod>2020-09-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
@@ -60,7 +60,7 @@
 
   
   <url>
-    <loc>http://yoursite.com/tags/%E5%90%8E%E7%AB%AF%E5%9F%BA%E7%A1%80/</loc>
+    <loc>https://jie-blog.icu/tags/%E5%90%8E%E7%AB%AF%E5%9F%BA%E7%A1%80/</loc>
     <lastmod>2020-09-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -69,7 +69,7 @@
 
   
   <url>
-    <loc>http://yoursite.com/categories/Servlet/</loc>
+    <loc>https://jie-blog.icu/categories/Servlet/</loc>
     <lastmod>2020-09-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
