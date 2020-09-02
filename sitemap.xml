@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://jie-blog.icu/posts/hexo_helloworld/</loc>
+    
+    <lastmod>2020-09-02</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://jie-blog.icu/posts/servlet-2/</loc>
+    
+    <lastmod>2020-09-02</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://jie-blog.icu/posts/servlet-3/</loc>
     
     <lastmod>2020-09-02</lastmod>
@@ -16,21 +30,7 @@
   </url>
   
   <url>
-    <loc>https://jie-blog.icu/posts/servlet-2/</loc>
-    
-    <lastmod>2020-09-02</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://jie-blog.icu/about/index.html</loc>
-    
-    <lastmod>2020-09-02</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://jie-blog.icu/posts/hexo_helloworld/</loc>
     
     <lastmod>2020-09-02</lastmod>
     
@@ -74,14 +74,14 @@
 
   
   <url>
-    <loc>https://jie-blog.icu/tags/%E5%90%8E%E7%AB%AF%E5%9F%BA%E7%A1%80/</loc>
+    <loc>https://jie-blog.icu/tags/Hexo%E5%85%A5%E9%97%A8/</loc>
     <lastmod>2020-09-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://jie-blog.icu/tags/Hexo%E5%85%A5%E9%97%A8/</loc>
+    <loc>https://jie-blog.icu/tags/%E5%90%8E%E7%AB%AF%E5%9F%BA%E7%A1%80/</loc>
     <lastmod>2020-09-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -90,14 +90,14 @@
 
   
   <url>
-    <loc>https://jie-blog.icu/categories/Servlet/</loc>
+    <loc>https://jie-blog.icu/categories/Hexo%E6%90%AD%E5%BB%BA/</loc>
     <lastmod>2020-09-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://jie-blog.icu/categories/Hexo%E6%90%AD%E5%BB%BA/</loc>
+    <loc>https://jie-blog.icu/categories/Servlet/</loc>
     <lastmod>2020-09-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
