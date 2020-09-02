@@ -2,7 +2,21 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://jie-blog.icu/posts/hexo_helloworld/</loc>
+    <loc>https://jie-blog.icu/posts/servlet-3/</loc>
+    
+    <lastmod>2020-09-02</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://jie-blog.icu/posts/servlet-1/</loc>
+    
+    <lastmod>2020-09-02</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://jie-blog.icu/posts/servlet-2/</loc>
     
     <lastmod>2020-09-02</lastmod>
     
@@ -16,9 +30,9 @@
   </url>
   
   <url>
-    <loc>https://jie-blog.icu/posts/servlet_1/</loc>
+    <loc>https://jie-blog.icu/posts/hexo_helloworld/</loc>
     
-    <lastmod>2020-09-01</lastmod>
+    <lastmod>2020-09-02</lastmod>
     
   </url>
   
