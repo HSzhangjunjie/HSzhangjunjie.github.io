@@ -158,13 +158,6 @@
   </url>
   
   <url>
-    <loc>https://jie-blog.icu/tags/web%E5%9F%BA%E7%A1%80/</loc>
-    <lastmod>2020-09-06</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://jie-blog.icu/tags/%E6%95%B0%E6%8D%AE%E4%BA%A4%E4%BA%92/</loc>
     <lastmod>2020-09-06</lastmod>
     <changefreq>daily</changefreq>
@@ -173,6 +166,13 @@
   
   <url>
     <loc>https://jie-blog.icu/tags/%E9%9B%B6%E7%A2%8E%E7%9F%A5%E8%AF%86%E7%82%B9/</loc>
+    <lastmod>2020-09-06</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://jie-blog.icu/tags/web%E5%9F%BA%E7%A1%80/</loc>
     <lastmod>2020-09-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
