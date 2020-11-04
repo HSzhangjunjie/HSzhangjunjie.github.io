@@ -2,28 +2,49 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://jie-blog.icu/posts/mybatis-datasource/</loc>
+    <loc>https://jie-blog.icu/posts/mybatis-plugin/</loc>
     
     <lastmod>2020-11-04</lastmod>
     
   </url>
   
   <url>
-    <loc>https://jie-blog.icu/posts/mybatis-scripting/</loc>
+    <loc>https://jie-blog.icu/posts/mybatis-session/</loc>
     
     <lastmod>2020-11-04</lastmod>
     
   </url>
   
   <url>
-    <loc>https://jie-blog.icu/posts/mybatis-mapping/</loc>
+    <loc>https://jie-blog.icu/posts/mybatis-transaction/</loc>
     
     <lastmod>2020-11-04</lastmod>
     
   </url>
   
   <url>
-    <loc>https://jie-blog.icu/posts/mybatis-builder/</loc>
+    <loc>https://jie-blog.icu/posts/mybatis-executor_2/</loc>
+    
+    <lastmod>2020-11-04</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://jie-blog.icu/posts/mybatis-executor_1/</loc>
+    
+    <lastmod>2020-11-04</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://jie-blog.icu/posts/mybatis-transaction/</loc>
+    
+    <lastmod>2020-11-04</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://jie-blog.icu/posts/mybatis-cache/</loc>
     
     <lastmod>2020-11-04</lastmod>
     
@@ -37,7 +58,35 @@
   </url>
   
   <url>
+    <loc>https://jie-blog.icu/posts/mybatis-builder/</loc>
+    
+    <lastmod>2020-11-04</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://jie-blog.icu/posts/mybatis-annocations&lang/</loc>
+    
+    <lastmod>2020-11-04</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://jie-blog.icu/posts/mybatis-title/</loc>
+    
+    <lastmod>2020-11-04</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://jie-blog.icu/posts/mybatis-scripting/</loc>
+    
+    <lastmod>2020-11-04</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://jie-blog.icu/posts/mybatis-annocations&lang/</loc>
     
     <lastmod>2020-11-04</lastmod>
     
@@ -51,6 +100,13 @@
   </url>
   
   <url>
+    <loc>https://jie-blog.icu/posts/mybatis-mapping/</loc>
+    
+    <lastmod>2020-11-04</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://jie-blog.icu/posts/mybatis-logging/</loc>
     
     <lastmod>2020-11-04</lastmod>
@@ -58,7 +114,7 @@
   </url>
   
   <url>
-    <loc>https://jie-blog.icu/posts/mybatis-type/</loc>
+    <loc>https://jie-blog.icu/posts/mybatis-jdbc/</loc>
     
     <lastmod>2020-11-04</lastmod>
     
@@ -72,14 +128,14 @@
   </url>
   
   <url>
-    <loc>https://jie-blog.icu/posts/mybatis-annocations&lang/</loc>
+    <loc>https://jie-blog.icu/posts/mybatis-datasource/</loc>
     
     <lastmod>2020-11-04</lastmod>
     
   </url>
   
   <url>
-    <loc>https://jie-blog.icu/posts/mybatis-annocations&lang/</loc>
+    <loc>https://jie-blog.icu/posts/mybatis-type/</loc>
     
     <lastmod>2020-11-04</lastmod>
     
@@ -487,14 +543,14 @@
   </url>
   
   <url>
-    <loc>https://jie-blog.icu/tags/%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/</loc>
+    <loc>https://jie-blog.icu/tags/mybatis/</loc>
     <lastmod>2020-11-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://jie-blog.icu/tags/mybatis/</loc>
+    <loc>https://jie-blog.icu/tags/%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/</loc>
     <lastmod>2020-11-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -580,13 +636,6 @@
   </url>
   
   <url>
-    <loc>https://jie-blog.icu/categories/tomcat/</loc>
-    <lastmod>2020-11-04</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://jie-blog.icu/categories/io/</loc>
     <lastmod>2020-11-04</lastmod>
     <changefreq>daily</changefreq>
@@ -594,7 +643,21 @@
   </url>
   
   <url>
+    <loc>https://jie-blog.icu/categories/tomcat/</loc>
+    <lastmod>2020-11-04</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://jie-blog.icu/categories/mybatis/%E9%85%8D%E7%BD%AE%E8%A7%A3%E6%9E%90%E5%8C%85/</loc>
+    <lastmod>2020-11-04</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://jie-blog.icu/categories/mybatis/%E6%A0%B8%E5%BF%83%E6%93%8D%E4%BD%9C%E5%8C%85/</loc>
     <lastmod>2020-11-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
