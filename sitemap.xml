@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://jie-blog.icu/posts/listener/</loc>
+    
+    <lastmod>2020-11-04</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://jie-blog.icu/posts/filter/</loc>
+    
+    <lastmod>2020-11-04</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://jie-blog.icu/posts/mybatis-plugin/</loc>
     
     <lastmod>2020-11-04</lastmod>
@@ -387,20 +401,6 @@
   </url>
   
   <url>
-    <loc>https://jie-blog.icu/posts/filter/</loc>
-    
-    <lastmod>2020-09-05</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://jie-blog.icu/posts/linster/</loc>
-    
-    <lastmod>2020-09-05</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://jie-blog.icu/posts/servlet3/</loc>
     
     <lastmod>2020-09-05</lastmod>
@@ -594,13 +594,6 @@
   </url>
   
   <url>
-    <loc>https://jie-blog.icu/categories/Servlet/</loc>
-    <lastmod>2020-11-04</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://jie-blog.icu/categories/mybatis/</loc>
     <lastmod>2020-11-04</lastmod>
     <changefreq>daily</changefreq>
@@ -615,13 +608,6 @@
   </url>
   
   <url>
-    <loc>https://jie-blog.icu/categories/Servlet/Filter/</loc>
-    <lastmod>2020-11-04</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://jie-blog.icu/categories/mybatis/%E5%9F%BA%E7%A1%80%E5%8A%9F%E8%83%BD%E5%8C%85/</loc>
     <lastmod>2020-11-04</lastmod>
     <changefreq>daily</changefreq>
@@ -629,14 +615,7 @@
   </url>
   
   <url>
-    <loc>https://jie-blog.icu/categories/Servlet/Linster/</loc>
-    <lastmod>2020-11-04</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://jie-blog.icu/categories/io/</loc>
+    <loc>https://jie-blog.icu/categories/Servlet/</loc>
     <lastmod>2020-11-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -644,6 +623,13 @@
   
   <url>
     <loc>https://jie-blog.icu/categories/tomcat/</loc>
+    <lastmod>2020-11-04</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://jie-blog.icu/categories/io/</loc>
     <lastmod>2020-11-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>

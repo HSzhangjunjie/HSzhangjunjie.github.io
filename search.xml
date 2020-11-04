@@ -1520,18 +1520,16 @@
     
     
     <entry>
-      <title>Linster</title>
-      <link href="/posts/linster/"/>
-      <url>/posts/linster/</url>
+      <title>Listener</title>
+      <link href="/posts/listener/"/>
+      <url>/posts/listener/</url>
       
         <content type="html"><![CDATA[<p><a name="KMVNp"></a></p><h1 id="一-监听器"><a class="markdownIt-Anchor" href="#一-监听器"></a> 一、监听器</h1><p><a name="6hD3U"></a></p><h2 id="什么是监听器"><a class="markdownIt-Anchor" href="#什么是监听器"></a> 什么是监听器</h2><p>监听器的监听器设计者模式跟观察者设计模式十分雷同，它本质上是监听观察某个事件（程序）的发生情况，当被监听的事件真的发生了的时候，事件发生者（事件源） 就会给注册该事件的监听者（监听器）发送消息，告诉监听者某些信息，同时监听者也可以获得一份事件对象，根据这个对象可以获得相关属性和执行相关操作。<br /><a name="7JJIc"></a></p><h2 id="监听器原理"><a class="markdownIt-Anchor" href="#监听器原理"></a> 监听器原理</h2><p><img src="https://cdn.nlark.com/yuque/0/2020/png/485026/1582709954560-5ec921a4-2c79-474c-b108-604c56fea965.png#align=left&amp;display=inline&amp;height=560&amp;margin=%5Bobject%20Object%5D&amp;originHeight=560&amp;originWidth=989&amp;size=0&amp;status=done&amp;style=none&amp;width=989" alt="" /><br /><a name="XxOND"></a></p><h1 id="二-servlet监听器"><a class="markdownIt-Anchor" href="#二-servlet监听器"></a> 二、Servlet监听器</h1><p><a name="eSO3z"></a></p><h2 id="监听器种类"><a class="markdownIt-Anchor" href="#监听器种类"></a> 监听器种类</h2><p>在Servlet规范中定义了多种类型的监听器，它们用于监听的事件源分别为  ServletContext, HttpSession 和  ServletRequest 这三个域对象。<img src="https://cdn.nlark.com/yuque/0/2020/png/485026/1582710394225-abfc5982-8121-41c9-a5e6-9676eab7522c.png#align=left&amp;display=inline&amp;height=156&amp;margin=%5Bobject%20Object%5D&amp;originHeight=156&amp;originWidth=1112&amp;size=0&amp;status=done&amp;style=none&amp;width=1112" alt="" /><br />使用方法与观察者模式一样，方法的名称和接口的名称就是使用意思。<br /><a name="xsxFh"></a></p><h1 id="三-常用监听器"><a class="markdownIt-Anchor" href="#三-常用监听器"></a> 三、常用监听器</h1><p>1：监听session属性的增加、移除以及属性值改变的HttpSessionAttributeListener</p><p><img src="https://cdn.nlark.com/yuque/0/2020/png/485026/1582713128436-58c1bcdf-b663-4aae-b089-a884e2526c0d.png#align=left&amp;display=inline&amp;height=278&amp;margin=%5Bobject%20Object%5D&amp;originHeight=278&amp;originWidth=510&amp;size=0&amp;status=done&amp;style=none&amp;width=510" alt="" /></p><p>2：监听web上下文的初始化（服务器已准备好接收请求）与销毁的ServletContextListener</p><p><img src="https://cdn.nlark.com/yuque/0/2020/png/485026/1582713128491-4d29dfd3-7ff8-4e5d-969e-f803dcbc371a.png#align=left&amp;display=inline&amp;height=175&amp;margin=%5Bobject%20Object%5D&amp;originHeight=175&amp;originWidth=451&amp;size=0&amp;status=done&amp;style=none&amp;width=451" alt="" /></p><p>3：监听web上下文属性的增加、删除、属性值变化的ServletContextAttributeListener</p><p><img src="https://cdn.nlark.com/yuque/0/2020/png/485026/1582713128590-baa4e178-563e-424e-9592-0b9d08fbf540.png#align=left&amp;display=inline&amp;height=265&amp;margin=%5Bobject%20Object%5D&amp;originHeight=265&amp;originWidth=483&amp;size=0&amp;status=done&amp;style=none&amp;width=483" alt="" /></p><p>4：监听request的创建与销毁的ServletRequestListener</p><p><img src="https://cdn.nlark.com/yuque/0/2020/png/485026/1582713128499-22dc2405-dcc5-46bc-b399-45acdab1b6b4.png#align=left&amp;display=inline&amp;height=168&amp;margin=%5Bobject%20Object%5D&amp;originHeight=168&amp;originWidth=427&amp;size=0&amp;status=done&amp;style=none&amp;width=427" alt="" /></p><p>5：监听request的属性的增加、删除、属性值变化的ServletRequestAttributeListener</p><p><img src="https://cdn.nlark.com/yuque/0/2020/png/485026/1582713128527-77f3493c-55f9-4a45-8d09-7136947ac6af.png#align=left&amp;display=inline&amp;height=261&amp;margin=%5Bobject%20Object%5D&amp;originHeight=261&amp;originWidth=503&amp;size=0&amp;status=done&amp;style=none&amp;width=503" alt="" /></p>]]></content>
       
       
       <categories>
           
-          <category> Servlet </category>
-          
-          <category> Linster </category>
+          <category> 零散知识 </category>
           
       </categories>
       
@@ -1558,9 +1556,7 @@
       
       <categories>
           
-          <category> Servlet </category>
-          
-          <category> Filter </category>
+          <category> 零散知识 </category>
           
       </categories>
       
