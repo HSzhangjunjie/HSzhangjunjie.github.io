@@ -13,14 +13,14 @@
       
       <categories>
           
-          <category> mybatis </category>
+          <category> mybatis，基础功能包 </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> mybatis，基础功能包 </tag>
+            <tag> mybatis </tag>
             
         </tags>
       
@@ -1045,7 +1045,7 @@
       
       <categories>
           
-          <category> Servlet </category>
+          <category> 零碎知识 </category>
           
       </categories>
       
@@ -1054,11 +1054,11 @@
             
             <tag> 后端基础 </tag>
             
+            <tag> web基础 </tag>
+            
             <tag> 数据交互 </tag>
             
             <tag> 零碎知识点 </tag>
-            
-            <tag> web基础 </tag>
             
         </tags>
       
@@ -1076,7 +1076,7 @@
       
       <categories>
           
-          <category> Servlet </category>
+          <category> 零碎知识 </category>
           
       </categories>
       
