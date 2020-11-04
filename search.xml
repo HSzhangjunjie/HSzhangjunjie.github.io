@@ -13,7 +13,9 @@
       
       <categories>
           
-          <category> mybatis，基础功能包 </category>
+          <category> mybatis </category>
+          
+          <category> 基础功能包 </category>
           
       </categories>
       
@@ -1045,7 +1047,7 @@
       
       <categories>
           
-          <category> 零碎知识 </category>
+          <category> 零散知识 </category>
           
       </categories>
       
@@ -1054,11 +1056,11 @@
             
             <tag> 后端基础 </tag>
             
-            <tag> web基础 </tag>
-            
             <tag> 数据交互 </tag>
             
             <tag> 零碎知识点 </tag>
+            
+            <tag> web基础 </tag>
             
         </tags>
       
@@ -1076,7 +1078,7 @@
       
       <categories>
           
-          <category> 零碎知识 </category>
+          <category> 零散知识 </category>
           
       </categories>
       

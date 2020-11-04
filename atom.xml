@@ -6,7 +6,7 @@
   <link href="https://jie-blog.icu/atom.xml" rel="self"/>
   
   <link href="https://jie-blog.icu/"/>
-  <updated>2020-11-04T03:49:14.713Z</updated>
+  <updated>2020-11-04T03:53:03.289Z</updated>
   <id>https://jie-blog.icu/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://jie-blog.icu/posts/mybatis-exceptions/"/>
     <id>https://jie-blog.icu/posts/mybatis-exceptions/</id>
     <published>2020-11-04T03:43:48.000Z</published>
-    <updated>2020-11-04T03:49:14.713Z</updated>
+    <updated>2020-11-04T03:53:03.289Z</updated>
     
     <content type="html"><![CDATA[<h1 id="exceptions包"><a class="markdownIt-Anchor" href="#exceptions包"></a> exceptions包</h1><p>exceptions为Mybatis定义了绝大多数异常类的父类，同时也提供了异常类的生产工厂。<br /><a name="c7D3m"></a></p><h1 id="基础知识"><a class="markdownIt-Anchor" href="#基础知识"></a> 基础知识</h1><p>了解excepetions包之前首先要对如下几个内容有所了解。<br /><a name="rAvLz"></a></p><h2 id="java的异常"><a class="markdownIt-Anchor" href="#java的异常"></a> Java的异常</h2><p>Java的异常类都是以Throwable为父类，Throwable又派生出了Error和Exception两大子类：</p><ul><li>Error及其子类代表着JVM异常。这类异常发生时无法通过程序来矫正，最可靠的方法就是停止JVM的运行。因此这类异常属于免检异常。</li><li>Excepetion及其子类代表程序运行中发生了意料之外的事情，这些异常可以被Java的异常处理机制所处理。Exception又可以分为两类：<ul><li>RuntimeException及其子类：这类异常是程序设计的错误，通过修复程序才可以避免，如数组越界、数值异常等。因此这类异常也属于免检异常。</li><li>非RuntimeException及其子类：这类异常通常由外部因素所导致的，是不可预知和避免的，如IO异常、类型寻找异常等。因此，这类异常属于必检异常。</li></ul></li></ul><p>注：免检异常即不需要对这类异常做强制检查。必检异常即在表写程序时要用try、catch进行包围的。<br /><a name="LRUTt"></a></p><h2 id="序列化和反序列化"><a class="markdownIt-Anchor" href="#序列化和反序列化"></a> 序列化和反序列化</h2><p>序列化是把对象转换为字节序列的过程。反序列化是把字节序列恢复成对象的过程。<br />对象序列化通常有两个目的：</p><ul><li>将对象转换为字节后保存到存储介质中，即为了对象的持久化。</li><li>将对象转换为字节后在网络上传输，即为了传输对象。</li></ul><p>在实现序列化时通常都是实现Serializabale接口即可，实现即表明这个类的对象是可序列化的，而不需要任何额外操作。（当然，还有其他方法）<br />在反序列化时，涉及到了一个serialVersionUID的字段，该字段叫做序列化版本控制字段。如果对象自己序列中的该字段与当前类不同，则反序列化失败且抛出版本不一致异常（InvaidClassException），反之则成功。<br />注意：如果没有显式的定义serialVersionUID属性，系统则会自动的生成一个serialVersionUID，当类的类名、类及属性修饰符、接口及接口顺序、属性、构造函数等相关内容任何一项发生改变serialVersionUID都会发生变化。<br />因此，通常手动定义一个serialVersionUID，这样便可以：</p><ul><li>希望版本间兼容时保持serialVersionUID不变。</li><li>希望不兼容时serialVersionUID改变。<br /><a name="p7SfU"></a></li></ul><h1 id="exception类"><a class="markdownIt-Anchor" href="#exception类"></a> Exception类</h1><p>在exceptions包中有三个异常类和一个工厂类：<br /><img src="https://cdn.nlark.com/yuque/0/2020/png/485026/1601360526991-3191f2b9-ec1b-450f-95b3-d7f201fd0994.png#align=left&amp;display=inline&amp;height=62&amp;margin=%5Bobject%20Object%5D&amp;name=image.png&amp;originHeight=123&amp;originWidth=331&amp;size=19204&amp;status=done&amp;style=none&amp;width=165.5" alt="image.png" /><br />但是实际的Mybatis的异常图谱远不止这三个异常类，如图：<br /><img src="https://cdn.nlark.com/yuque/0/2020/png/485026/1601360626312-37fab0c6-dc6a-4192-ab1e-902b34975900.png#align=left&amp;display=inline&amp;height=266&amp;margin=%5Bobject%20Object%5D&amp;name=image.png&amp;originHeight=531&amp;originWidth=1173&amp;size=926070&amp;status=done&amp;style=none&amp;width=586.5" alt="image.png" /><br />注意：IbatisException是PersistenceException的父类，而其他的异常类却都继承自PersistenceEception，于是IbatisException被架空了，因此IbatisException类上有了一个大大的@Deprecated。<br />此外，在所有Exception的类中的定义都十分简单，基本上都是由一个serialVersionUID字段和四种构造方法组成的，因此也不做过多分析了。<br /><a name="AWz9d"></a></p><h1 id="exceptionfactory类"><a class="markdownIt-Anchor" href="#exceptionfactory类"></a> ExceptionFactory类</h1><p>该类是负责生产Exception的工厂，其源码如下：</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">ExceptionFactory</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">  <span class="function"><span class="keyword">private</span> <span class="title">ExceptionFactory</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    <span class="comment">// Prevent Instantiation</span></span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> RuntimeException <span class="title">wrapException</span><span class="params">(String message, Exception e)</span> </span>&#123;</span><br><span class="line">    <span class="keyword">return</span> <span class="keyword">new</span> PersistenceException(ErrorContext.instance().message(message).cause(e).toString(), e);</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>wrapException方法负责执行主要的逻辑，ErrorContext将在后续进行分析。</p>]]></content>
     
@@ -34,7 +34,9 @@
     
     
     
-    <category term="mybatis，基础功能包" scheme="https://jie-blog.icu/categories/mybatis%EF%BC%8C%E5%9F%BA%E7%A1%80%E5%8A%9F%E8%83%BD%E5%8C%85/"/>
+    <category term="mybatis" scheme="https://jie-blog.icu/categories/mybatis/"/>
+    
+    <category term="基础功能包" scheme="https://jie-blog.icu/categories/mybatis/%E5%9F%BA%E7%A1%80%E5%8A%9F%E8%83%BD%E5%8C%85/"/>
     
     
     <category term="mybatis" scheme="https://jie-blog.icu/tags/mybatis/"/>
